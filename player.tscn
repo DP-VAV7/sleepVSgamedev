@@ -1,5 +1,7 @@
 [gd_scene format=4 uid="uid://gt8i3pmi4bdg"]
 
+[ext_resource type="Script" uid="uid://b58s8y0s8vdbh" path="res://player.gd" id="1_4flbx"]
+
 [sub_resource type="PortableCompressedTexture2D" id="PortableCompressedTexture2D_sh265"]
 _data = PackedByteArray("AAADAAUAAAABAAAAQAAAAEAAAABEAQAAUklGRjwBAABXRUJQVlA4TC8BAAAvP8APEFegGJIkZp8XcNbl1M8la6gJAKRh3ysVUej/giqIZIN6H0VkUEhRmUR48x8AAOD/YDfNQjy1L2q5Wc4QD8CNbTtu87+2GAvFrQsO0AF+A/KWowRFXhogUo4iqQP8QoV5ke0sov9q27ZhUnamXEG/ZVqLdkwWcpokIow4F0kiHnEuUaJ0iHMJ4RY6yBlcdW1nK9R5xGmCqnrESZvqgxGnGarOhDivX6WMjDi3+bMMM+Lcpo/384Q4Te4vfdPZP3VSPuWeGs7c83MIG268FRtL//u0FnTYmCzkMElEGHEskkQ85Igi0kGOIBF1hFvwmMNVBzlMcAo6NtUHI47rWPVnABxmXUsZVwYc9XMtQ0Uc9/z+fr4DDrK5v/SWAAflU+4bf8Om8UeGDdPfIAkA")
 size_override = Vector2(64, 64)
@@ -40,7 +42,12 @@ animations = [{
 "speed": 10.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_i2l2a"]
+radius = 5.0
+height = 16.0
+
 [node name="player" type="CharacterBody2D" unique_id=132677571]
+script = ExtResource("1_4flbx")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1173397114]
 texture_filter = 1
@@ -64,3 +71,4 @@ metadata/_aseprite_wizard_config_ = {
 metadata/_aseprite_wizard_source_file_hash_ = "36cccad8026bb44028aae5d501d17c72"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=821665014]
+shape = SubResource("CapsuleShape2D_i2l2a")
