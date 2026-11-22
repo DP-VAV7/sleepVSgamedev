@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://df474nxpyk4mp"
-path="res://.godot/imported/Wall Tile Textures.png-227e6ff5e8e8362ab0c1a4dd21262d1f.ctex"
+path="res://.godot/imported/Wall Tile Textures.png-ceaf5fd97ca231bf44ca674923fb4fbe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Wall Tile Textures.png"
-dest_files=["res://.godot/imported/Wall Tile Textures.png-227e6ff5e8e8362ab0c1a4dd21262d1f.ctex"]
+source_file="res://Levels/Wall Tile Textures.png"
+dest_files=["res://.godot/imported/Wall Tile Textures.png-ceaf5fd97ca231bf44ca674923fb4fbe.ctex"]
 
 [params]
 

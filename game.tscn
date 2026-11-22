@@ -1,12 +1,16 @@
 [gd_scene format=3 uid="uid://dsbqrom4pxo7q"]
 
 [ext_resource type="PackedScene" uid="uid://gt8i3pmi4bdg" path="res://player.tscn" id="1_80nbo"]
-[ext_resource type="PackedScene" uid="uid://cwrr0np3vhyki" path="res://room_1.tscn" id="2_e2o6t"]
+[ext_resource type="PackedScene" uid="uid://cwrr0np3vhyki" path="res://Levels/room_1.tscn" id="2_e2o6t"]
 
 [node name="Game" type="Node2D" unique_id=1092052201]
 
 [node name="player" parent="." unique_id=132677571 instance=ExtResource("1_80nbo")]
 
-[node name="Node2D" type="Node2D" parent="." unique_id=855237767]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=511375380]
+zoom = Vector2(4, 4)
+position_smoothing_enabled = true
 
-[node name="Room1" parent="Node2D" unique_id=1240709340 instance=ExtResource("2_e2o6t")]
+[node name="Rooms" type="Node2D" parent="." unique_id=855237767]
+
+[node name="Room1" parent="Rooms" unique_id=1240709340 instance=ExtResource("2_e2o6t")]
