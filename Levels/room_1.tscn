@@ -1,6 +1,6 @@
 [gd_scene format=4 uid="uid://cwrr0np3vhyki"]
 
-[ext_resource type="Texture2D" uid="uid://df474nxpyk4mp" path="res://Levels/Wall Tile Textures.png" id="1_5vwy8"]
+[ext_resource type="Texture2D" uid="uid://es3c3b57gf3" path="res://Levels/Less Placeholdery Tile Textures.png" id="1_5vwy8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dgvua"]
 resource_name = "Walls"
