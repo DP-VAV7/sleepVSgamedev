@@ -396,3 +396,5 @@ tile_map_data = PackedByteArray("AAD+/wMAAAACAAIAAAABAAMAAAAFAAEAAAACAAMAAAAFAAE
 tile_set = SubResource("TileSet_0y3hw")
 
 [node name="Background" type="TileMapLayer" parent="." unique_id=696162403]
+
+[node name="Exits" type="Node2D" parent="." unique_id=2025245534]
