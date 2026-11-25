@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://bxd8keahb0ib3"
+path="res://.godot/imported/001_dungeon_color_palatte.aseprite-3906aaeed57402a1c9b2d5722c01aaeb.res"
+
+[deps]
+
+source_file="res://Levels/001_dungeon_color_palatte.aseprite"
+dest_files=["res://.godot/imported/001_dungeon_color_palatte.aseprite-3906aaeed57402a1c9b2d5722c01aaeb.res"]
+
+[params]
+
